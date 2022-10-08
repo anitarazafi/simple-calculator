@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b3419bd60f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator__container">
+      <div class="calculator__input">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <div class="calculator__btns">
+        <button data-clear class="btn text-red" id="clear">C</button>
+        <button data-delete class="btn text-red" id="delete">
+          &leftarrow;
+        </button>
+        <button data-percentage class="btn text-green" id="percentage">
+          %
+        </button>
+        <button data-ops class="btn text-green" id="divide">/</button>
+        <button data-number class="btn" id="7">7</button>
+        <button data-number class="btn" id="8">8</button>
+        <button data-number class="btn" id="9">9</button>
+        <button data-ops class="btn text-green" id="multiply">x</button>
+        <button data-number class="btn" id="4">4</button>
+        <button data-number class="btn" id="5">5</button>
+        <button data-number class="btn" id="6">6</button>
+        <button data-ops class="btn text-green" id="substract">-</button>
+        <button data-number class="btn" id="1">1</button>
+        <button data-number class="btn" id="2">2</button>
+        <button data-number class="btn" id="3">3</button>
+        <button data-ops class="btn text-green" id="add">+</button>
+        <button data-sign class="btn text-green" id="plus-minus">+/-</button>
+        <button data-number class="btn" id="0">0</button>
+        <button data-number class="btn" id="dot">.</button>
+        <button data-equals class="btn text-green" id="equals">=</button>
+      </div>
+    </div>
+  </body>
+</html>

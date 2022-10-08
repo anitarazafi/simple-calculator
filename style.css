@@ -1,0 +1,96 @@
+.calculator__container {
+  position: relative;
+  background-color: #1c1c1c;
+
+  width: 390px;
+  height: 750px;
+  margin: 0 auto;
+}
+
+.calculator__input {
+  position: absolute;
+  width: 350px;
+  height: 150px;
+  left: 20px;
+  top: 50px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: column;
+  word-wrap: break-word;
+  word-break: break-all;
+
+  background: #dddddd;
+  border-radius: 5px;
+}
+
+.calculator__input .previous-operand {
+  font-size: 24px;
+}
+
+.calculator__input .current-operand {
+  font-size: 36px;
+}
+
+.calculator__input input:focus {
+  outline: none;
+}
+
+.calculator__btns {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 350px;
+  height: 490px;
+  left: 20px;
+  top: 218px;
+
+  background: #dddddd;
+  border-radius: 5px;
+}
+
+.calculator__btns .btn {
+  width: 75px;
+  height: 75px;
+  font-size: 40px;
+  background-color: #898989;
+  border: none;
+  border-radius: 50%;
+}
+
+.calculator__btns .btn:focus {
+  outline: none;
+}
+
+.calculator__btns .btn:hover {
+  cursor: pointer;
+}
+
+.calculator__btns .btn:active {
+  background-color: #515151;
+}
+
+.text-red {
+  color: #ad0000;
+}
+
+.text-green {
+  color: #366101;
+}
+
+#equals {
+  background-color: #366101;
+  color: #000000;
+}
+
+#equals:active {
+  background-color: #457c03;
+}
+
+#delete {
+  font-size: 28px;
+}
